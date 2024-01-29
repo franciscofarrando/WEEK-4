@@ -10,4 +10,4 @@ tamaño y color de texto (legibilidad)
 color de fondo 
 display de elementos (eliminar accesorios)
 
-Temática: libre (pinturas, fotos, posters, anuncios, ilustraciones, etc). OJO, con vídeos enlazados (iframe) es más difícil). Al menos tres imágenes.
+Temática: libre (pinturas, fotos, posters, anuncios, ilustraciones, etc). OJO, con vídeos enlazados (iframe) es más difícil. Al menos tres imágenes.
