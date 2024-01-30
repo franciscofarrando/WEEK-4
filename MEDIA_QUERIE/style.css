@@ -1,3 +1,4 @@
+
 header{
 display: flex;
 flex-direction: column;
@@ -20,20 +21,30 @@ border-bottom: solid 3px black;
     height: 100vh;
 }
 .pintura{
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: space-evenly;
     border-bottom: solid 2px black;
     padding: 10px;
     gap: 20px;
 }
+.pintura-2{
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 2px black;
+    padding: 10px;
+    gap: 20px;
+    background-color: rgb(214, 213, 213);
+}
 
 .img-1{
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
     background-image: url(img/gioconda.jpg);
     background-size: cover;
     background-position: center;
+    border: solid 2px black;
     
 }
 .description{
@@ -41,7 +52,7 @@ border-bottom: solid 3px black;
     display: flex;
 }
 .paint-detail{
-    width: 20%;
+    width: 18%;
 
 }
 .paint-title{
@@ -51,35 +62,51 @@ border-bottom: solid 3px black;
    font-style: italic;
 }
 .description-text{
-    width: 50%;
+    width: 70%;
 }
 
 .img-2{
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
     background-image: url(img/girasoles.jpg);
     background-size: cover;
     background-position: center;
+    border: solid 2px black;
+}
+.img-3{
+    width: 400px;
+    height: 550px;
+    background-image: url(img/suicidio.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid 2px black;
 }
 
 @media (max-width:650px){
     .container{
         width: 100vw;;
     }
-    .pintura{
+    .pintura, .pintura-2{
+        height: 600px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
    
-    .paint-title{
+    .description{
         display: flex;
         width: 100%;
         padding: 10px;
-        justify-content: center;
-        font-size: x-large;
+                
     }
-    .description{
+    .paint-detail{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .description-text{
         display: none;
     }
     
