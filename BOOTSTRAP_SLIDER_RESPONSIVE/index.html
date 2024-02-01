@@ -12,90 +12,220 @@
         <title>Bootstrap - Slider Resposive</title>
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="carouselExampleDark"
-                        class="carousel carousel-dark slide">
-                        <div class="carousel-indicators">
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="0" class="active"
-                                aria-current="true"
-                                aria-label="Slide 1"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button"
-                                data-bs-target="#carouselExampleDark"
-                                data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active"
-                                data-bs-interval="10000">
-                                <img src="img/casa-curutchet.webp"
-                                    class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>"Casa Curuchet" - La Plata -
-                                        ARGENTINA</h5>
-                                    <p>Le Corbusier (Suiza) </p>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="img/casa-sobre-el-arrollo.webp"
-                                    class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>"Casa Sobre el Arrollo" - Mar del Plata
-                                        -
-                                        ARGENTINA </h5>
-                                    <p>Amancio Williams (Argentina) </p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/Farnsworth.webp"
-                                    class="d-block w-100"
-                                    alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>"Casa Farnsworth" Illinois - ESTADOS
-                                        UNIDOS-
-                                    </h5>
-                                    <p>Ludwid Mies van der Rohe (Alemania)</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/kaufman.webp" class="d-block w-100"
-                                    alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>"Casa Kaufmann" Pensilvania - ESTADOS
-                                        UNIDOS- </h5>
-                                    <p>Frank Lloyd Wright (Estados Unidos</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleDark"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button"
-                            data-bs-target="#carouselExampleDark"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"
-                                aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+        <header class="text-center p-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col">
+                        <h1 class="display-4">Las 4 casas que idealizo</h1>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </header>
+        <main>
+            <div class="container-fluid">
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-9 col-md-12 ">
+                        <div id="carouselExampleDark"
+                            class="carousel carousel-dark slide">
+                            <div class="carousel-indicators">
+                                <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="0" class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"
+                                    data-bs-interval="10000">
+                                    <img src="img/casa-curutchet.webp"
+                                        class="d-block w-100" alt="..." >
+                                    <div
+                                        class="carousel-caption d-none d-md-block">
+                                        <h5 id="carrousel-text">"Casa Curuchet"
+                                            - La Plata -
+                                            ARGENTINA</h5>
+                                        <p id="carrousel-text">Le Corbusier
+                                            (Suiza) </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"
+                                    data-bs-interval="2000">
+                                    <img src="img/casa-sobre-el-arrollo.webp"
+                                        class="d-block w-100" alt="...">
+                                    <div
+                                        class="carousel-caption d-none d-md-block">
+                                        <h5
+                                            id="carrousel-text">"Casa Sobre el Arrollo"
+                                            - Mar del
+                                            Plata
+                                            -
+                                            ARGENTINA </h5>
+                                        <p id="carrousel-text">Amancio Williams
+                                            (Argentina) </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item"
+                                    data-bs-interval="3000">
+                                    <img src="img/Farnsworth.webp"
+                                        class="d-block w-100"
+                                        alt="...">
+                                    <div
+                                        class="carousel-caption d-none d-md-block">
+                                        <h5
+                                            id="carrousel-text">"Casa Farnsworth"
+                                            Illinois - ESTADOS
+                                            UNIDOS-
+                                        </h5>
+                                        <p id="carrousel-text">Ludwid Mies van
+                                            der Rohe
+                                            (Alemania)</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/kaufman.webp"
+                                        class="d-block w-100"
+                                        alt="...">
+                                    <div
+                                        class="carousel-caption d-none d-md-block">
+                                        <h5 id="carrousel-text">"Casa Kaufmann"
+                                            Pensilvania -
+                                            ESTADOS
+                                            UNIDOS- </h5>
+                                        <p id="carrousel-text">Frank Lloyd
+                                            Wright (Estados
+                                            Unidos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container p-4">
+                <div class="row g-4">
+
+                    <!-- Card Curuchet -->
+                    <div class="col-xl-3 col-lg-6 col-md-12 ">
+                        <div class="card">
+                            <img src="img/casa-curutchet.webp"
+                                class="card-img-top"
+                                alt="...">
+
+                            <div class="card-body" id="curuchet">
+                                <h5 class="card-title">Casa Curuchet</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of
+                                    the card's content.</p>
+                                <a
+                                    href=https://www.google.com/maps/place/Casa+Curutchet,+Av.+53+320,+B1900BAU+La+Plata,+Provincia+de+Buenos+Aires,+Argentina/@-34.911301,-57.9416041,19z/data=!4m14!1m7!3m6!1s0x95a2e63e86517f97:0x15e61d9fed078f7e!2sCasa+Curutchet,+Av.+53+320,+B1900BAU+La+Plata,+Provincia+de+Buenos+Aires,+Argentina!8m2!3d-34.9113512!4d-57.9417488!16s%2Fm%2F01xmg40!3m5!1s0x95a2e63e86517f97:0x15e61d9fed078f7e!8m2!3d-34.9113512!4d-57.9417488!16s%2Fm%2F01xmg40"
+                                    class="btn btn-primary" target="_blank">Ver en Google
+                                    Maps</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Arroyo-->
+
+                    <div class="col-xl-3 col-lg-6 col-md-12 ">
+                        <div class="card">
+                            <img src="img/casa-sobre-el-arrollo.webp"
+                                class="card-img-top"
+                                alt="...">
+
+                            <div class="card-body" id="arrollo">
+                                <h5 class="card-title">Casa sobre el Arrollo</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of
+                                    the card's content.</p>
+                                <a
+                                    href=https://www.google.com/maps/place/CASA+SOBRE+EL+ARROYO+Museo+Casa+del+Puente,+Quintana+3998,+B7602+Mar+del+Plata,+Provincia+de+Buenos+Aires,+Argentina/@-38.0082527,-57.5738944,17z/data=!4m6!3m5!1s0x9584dfbf5b633b73:0x9603db2aa918138c!8m2!3d-38.0082527!4d-57.5738944!16s%2Fg%2F11x7vtv83"
+                                    class="btn btn-primary" target="_blank">Ver en Google
+                                    Maps</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Farnswoth-->
+
+                    <div class="col-xl-3 col-lg-6 col-md-12 ">
+                        <div class="card">
+                            <img src="img/Farnsworth.webp"
+                                class="card-img-top"
+                                alt="...">
+
+                            <div class="card-body" id="arrollo">
+                                <h5 class="card-title">Casa Farnsworth</h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of
+                                    the card's content.</p>
+                                <a
+                                    href=https://www.google.com/maps/place/Edith+Farnsworth+House,+14520+River+Rd,+Plano,+IL+60545,+Estados+Unidos/@41.6350276,-88.5356838,17z/data=!4m6!3m5!1s0x880ec11ee9030729:0xb7ce648588ec297e!8m2!3d41.6350276!4d-88.5356838!16zL20vMDNfcWRo3"
+                                    class="btn btn-primary" target="_blank">Ver en Google
+                                    Maps</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Kaufmann-->
+
+                    <div class="col-xl-3 col-lg-6 col-md-12 ">
+                        <div class="card">
+                            <img src="img/kaufman.webp"
+                                class="card-img-top"
+                                alt="...">
+
+                            <div class="card-body" id="arrollo">
+                                <h5 class="card-title">Casa Kaufmann/h5>
+                                <p class="card-text">Some quick example text to
+                                    build on the card title and make up the bulk
+                                    of
+                                    the card's content.</p>
+                                <a
+                                    href=https://www.google.com/maps/place/Casa+de+la+Cascada,+1491+Mill+Run+Rd,+Mill+Run,+PA+15464,+Estados+Unidos/@39.9062551,-79.4678413,17z/data=!4m6!3m5!1s0x883533f74d79e731:0x6e162bd3790a9ab8!8m2!3d39.9062551!4d-79.4678413!16zL20vMDF6aDJz"
+                                    class="btn btn-primary" target="_blank">Ver en Google
+                                    Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
